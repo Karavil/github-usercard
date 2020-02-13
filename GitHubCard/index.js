@@ -39,9 +39,9 @@ function UserCard(user) {
 
    //Follower counts
    const followers = document.createElement('p')
-   followers.textContent = user.followers;
+   followers.textContent = 'Followers: ' + user.followers;
    const following = document.createElement('p')
-   following.textContent = user.following;
+   following.textContent = 'Following: ' + user.following;
 
    //User bio
    const bio = document.createElement('p')
